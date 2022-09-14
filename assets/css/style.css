@@ -1,0 +1,59 @@
+:root {
+    --grey: #e3e3e3;
+    --red: #ad3232;
+    --blue: #5353b4;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid var(--grey);
+    outline: none;
+
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background: var(--grey);
+    border: unset;
+}
+
+a {
+    color: var(--blue);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.mes {
+    border: 3px solid var(--red);
+    margin-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    color: var(--red);
+    font-weight: bold;
+    text-transform: uppercase;
+}
